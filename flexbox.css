@@ -1,0 +1,58 @@
+.flex1{
+background-color: blue;
+margin: 200px;
+padding: 10px;
+height: 300px;
+width:800px;
+border:2px solid aquamarine;
+outline: 20px double rgb(183, 56, 56);
+outline-offset:20px;
+opacity: 0.8;
+display: flex;
+/*flex-direction: column;
+flex-wrap:nowrap;*/
+/*flex-flow:row wrap ;
+justify-content: start;
+align-items: start;
+align-content:space-around ;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex2{
+
+background-color: black;
+color: white;
+border:1px solid burlywood;
+out
+width: 80px;
+height: 30px;
+
+
+
+}
+
+
+
+
+
+
+}

@@ -1,0 +1,26 @@
+.table{
+    width: 100%;
+}
+.table,td{
+    border:1px solid black;
+    text-align: center;
+}
+.sub1{
+    color: blue;
+}
+.sub2{
+    color: yellowgreen;
+}
+.sub3{
+    color: rgb(171, 110, 227);
+}
+.sub4{
+    color: green;
+}
+.sub5{
+    color: red;
+}
+.td{
+    background-color: red;
+}
+

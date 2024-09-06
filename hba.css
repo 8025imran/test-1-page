@@ -1,0 +1,82 @@
+/*direct tag
+class=name
+.=name
+id
+#=idname
+ body h1, h2, h3,h4{color:red:}
+
+body.name,.name,.name{color:black;}
+how to property
+property name:property value;
+*/
+
+
+
+
+body{
+/*background-color:yellow;*/
+/*background-image:url(../html/imran/sample.jpeg);*/
+/*background-repeat: repeat-x;*/
+/*background-position: top right;*/
+/*background-position: bottom left;*/
+/*background-attachment: scroll;*/
+/*background-attachment: fixed;*/
+/*background-repeat: no-repeat;*/
+/*background: blue url(../html/imran/elc.jpeg) no-repeat fixed bottom left;*/
+/*background-color:rgb(15, 105, 35);*/
+/*background-color:rgba(50, 23, 23,.5);*/
+/*font-family: 'Courier New', Courier, monospace;*/
+/*font-style:  oblique;*/
+/*font-weight: 900;*/
+/*font-variant: small-caps;*/
+/*font-size:3em;*/
+/*font-size: 32px;*/
+/*font-size: 100%;*/
+/*font-size: 10vw;*/
+/*font :italic small-caps 16px 'Courier New', Courier, monospace;*/
+}
+
+/*.text{
+    border: 3px solid blue;
+/*background-color: chartreuse;
+color: red;
+ /*text-align: center;*/
+/*text-align: left;*/
+/*text-align:right;*/
+/*text-align: justify;*/
+/*text-align-last: right;*/
+/*text-decoration-line: underline;
+text-decoration-color:blue ;
+text-decoration-style:double;
+text-decoration-thickness:2px ;*/
+/*text-decoration: underline green double 1.5px;*/
+/*text-indent: 50px;
+word-spacing:5px ;
+letter-spacing: 6px;
+line-height: 40px;
+white-space: nowrap;*/
+/*text-shadow:4px  6px  1.5px pink*/
+.margin{
+   /* border: 5px solid yellowgreen;
+/*margin-top:15px;
+margin-right:800px;
+margin-left:30px;
+margin-bottom:60px;*/
+/*margin:50px 30px 50px 30px;
+padding:50px 40px 50px 40px;*/
+
+}
+
+.weight{
+border: 2px solid blue;
+/*height:400px;
+width:600px;*/
+/*max-width: 800px;
+min-width: 600px;
+max-height: 800px;
+min-height:600px;
+}
+/*.imag{
+border-radius: 900px;
+filter:sepia(50%);*/
+}

@@ -1,0 +1,35 @@
+#page{
+    color:red;
+}
+
+div{
+/*background-color: black;*/
+float:left;
+padding: 35px;
+
+
+}
+
+.diva{
+background: aquamarine;
+/*border: 2px solid ;*/
+
+
+}
+.divb{
+    background: blue;
+    /*border: 2px solid;*/
+    
+}
+
+.divc{
+
+    /*border: 2px solid;*/
+    background: brown;
+}
+
+
+
+
+
+

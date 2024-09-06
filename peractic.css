@@ -1,0 +1,54 @@
+.body{
+   
+    background-color: whitesmoke;
+}
+.form{
+    
+    width: 400px;
+    height: 500px;
+    margin:auto;
+    padding:60px;
+    outline:10px solid greenyellow;
+    
+    border: 3px solid green;
+    .header{
+        background-color:slategrey;
+        width: auto;
+        height: 40px;
+        text-align: center;
+        padding-top: 15px;
+        
+        
+        
+    }
+    .color{
+        color: white;
+    }
+    .line{
+        text-align: center;
+
+        
+    }
+    .border{
+        border: 1px solid palevioletred;
+    }
+    .border1{
+        background-color: palevioletred;
+        width: 170px;
+        text-align: center;
+    }
+    .border2{
+        border: 1px solid palevioletred;
+        height: 40px;
+    }
+    .lable{
+        color: brown;
+    }
+    .table1{
+        border: 1px solid black;
+        width: 100%;
+    }
+    .table{
+        border:1px solid black
+    }
+}
