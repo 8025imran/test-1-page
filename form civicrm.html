@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Name and Address</legend>
+            <table>
+                <tr>
+                    <td>Do You Use CiviCRM?</td>
+                    <td><label for="label-yes"><input id="label-yes" type="radio"  name="type"> Yes</label> <label for="label-no"><input id="label-no" type="radio" name="type" > No</label> <a href="#">(unselect)</a></td>
+                </tr>
+                <tr>
+                    <td><label for="civicrm">How long have you been using CiviCRM</label></td>
+                    <td>
+                        <select  id="civicrm" style="width: 120px;">
+                            <option>-select-</option>
+                            <option>-select-</option>
+                            <option>-select-</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="cms">Which CMS do you use?</label></td>
+                    <td>
+                        <select id="cms" style="width: 90px;">
+                            <option>-select-</option>
+                            <option>-select-</option>
+                            <option>-select-</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="skill">Your skill set</label></td>
+                    <td>
+                        <select id="skill" style="width: 145px;">
+                            <option>-select-</option>
+                            <option>-select-</option>
+                            <option>-select-</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email*</label></td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="first-name">First Name*</label></td>
+                    <td><input type="name" id="first-name"></td>
+                </tr>
+                <tr>
+                    <td><label for="last-name">Last Name*</label></td>
+                    <td><input type="name" id="last-name"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>First and last name will be shared with other visitors to the site.</td>
+                </tr>
+                <tr>
+                    <td><label for="address">street addrees (home)</label></td>
+                    <td><input type="address" style="width: 270px;" id="address"></td>
+                </tr>
+                <tr>
+                    <td><label for="city-address">City (home)</label></td>
+                    <td><input type="address" id="city-address"></td>
+                </tr>
+                <tr>
+                    <td><label for="label-postel">Postel code (home)</label></td>
+                    <td><input type="password"  style="width: 70px;"  id="label-postel"></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country (home)</label></td>
+                    <td>
+                        <select id="country">
+                            <option>United states</option>
+                            <option>pakistan</option>
+                            <option>saudi arab</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Your state/province and country of residence will be shared with other so follcs can find others in their communty.</td>
+                </tr>
+                <tr>
+                    <td><label for="state">state (home)</label></td>
+                    <td>
+                        <select id="state" style="width: 200px;">
+                            <option>- select -</option>
+                            <option>-select-</option>
+                            <option>-select-</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <input value="save" type="button" style="border-radius: 10px;">
+
+        <input value="cancel" type="button" style="border-radius: 10px;">
+    
+    </form>
+</body>
+</html>
