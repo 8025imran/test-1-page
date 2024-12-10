@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
+    <title>Form CiviCRM</title>
 </head>
 <body>
-    <form>
+    <form method="post" action="https://example.com/civicrm/contact/CiviCRM">
         <fieldset>
             <legend>Name and Address</legend>
             <table>
@@ -17,44 +17,44 @@
                 <tr>
                     <td><label for="civicrm">How long have you been using CiviCRM</label></td>
                     <td>
-                        <select  id="civicrm" style="width: 120px;">
+                        <select  id="civicrm" style="width: 120px;" required>
                             <option>-select-</option>
-                            <option>-select-</option>
-                            <option>-select-</option>
+                            <option>civicrm</option>
+                            <option>civicrm2</option>
                         </select>
                     </td>
                 </tr>
                 <tr>
                     <td><label for="cms">Which CMS do you use?</label></td>
                     <td>
-                        <select id="cms" style="width: 90px;">
+                        <select id="cms" style="width: 90px;" required>
                             <option>-select-</option>
-                            <option>-select-</option>
-                            <option>-select-</option>
+                            <option>cms</option>
+                            <option>cms2</option>
                         </select>
                     </td>
                 </tr>
                 <tr>
                     <td><label for="skill">Your skill set</label></td>
                     <td>
-                        <select id="skill" style="width: 145px;">
+                        <select id="skill" style="width: 145px;" required>
                             <option>-select-</option>
-                            <option>-select-</option>
-                            <option>-select-</option>
+                            <option>webdevelpoer</option>
+                            <option>social media</option>
                         </select>
                     </td>
                 </tr>
                 <tr>
                     <td><label for="email">Email*</label></td>
-                    <td><input type="email" id="email"></td>
+                    <td><input type="email" id="email" required></td>
                 </tr>
                 <tr>
                     <td><label for="first-name">First Name*</label></td>
-                    <td><input type="name" id="first-name"></td>
+                    <td><input type="name" id="first-name" required></td>
                 </tr>
                 <tr>
                     <td><label for="last-name">Last Name*</label></td>
-                    <td><input type="name" id="last-name"></td>
+                    <td><input type="name" id="last-name" required></td>
                 </tr>
                 <tr>
                     <td></td>
@@ -62,20 +62,20 @@
                 </tr>
                 <tr>
                     <td><label for="address">street addrees (home)</label></td>
-                    <td><input type="address" style="width: 270px;" id="address"></td>
+                    <td><input type="address" style="width: 270px;" id="address" required></td>
                 </tr>
                 <tr>
                     <td><label for="city-address">City (home)</label></td>
-                    <td><input type="address" id="city-address"></td>
+                    <td><input type="address" id="city-address" required></td>
                 </tr>
                 <tr>
                     <td><label for="label-postel">Postel code (home)</label></td>
-                    <td><input type="password"  style="width: 70px;"  id="label-postel"></td>
+                    <td><input type="password"  style="width: 70px;"  id="label-postel" required></td>
                 </tr>
                 <tr>
                     <td><label for="country">Country (home)</label></td>
                     <td>
-                        <select id="country">
+                        <select id="country" required>
                             <option>United states</option>
                             <option>pakistan</option>
                             <option>saudi arab</option>
@@ -89,18 +89,18 @@
                 <tr>
                     <td><label for="state">state (home)</label></td>
                     <td>
-                        <select id="state" style="width: 200px;">
+                        <select id="state" style="width: 200px;" required>
                             <option>- select -</option>
-                            <option>-select-</option>
-                            <option>-select-</option>
+                            <option>khan bela</option>
+                            <option>R Y K</option>
                         </select>
                     </td>
                 </tr>
             </table>
         </fieldset>
-        <input value="save" type="button" style="border-radius: 10px;">
+        <input value="save" type="submit" style="border-radius: 10px;">
 
-        <input value="cancel" type="button" style="border-radius: 10px;">
+        <input value="cancel" type="reset" style="border-radius: 10px;">
     
     </form>
 </body>
