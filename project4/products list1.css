@@ -58,20 +58,3 @@ footer {
     margin-right: 50px;
     bottom: 0px;
 }
-@media (max-width:481px){
-    .card,header,footer{
-        width: 100%;
-        margin: auto;
-
-    }
-}
-@media (min-width:481px){
-    .card{
-        width: 280px;
-    }
-}
-@media (min-width:768px){
-    .card{
-        width: 210px;
-    }
-}
