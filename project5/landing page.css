@@ -10,45 +10,100 @@ body{
 }
 .header{
     height: 90px;
-    
     display: flex;
     background-color: rgb(20,20,20);
     border: 2px solid rgb(8,166,133);
     border-radius: 14px;
-    margin: 10px 25px;
+    margin: 0.8rem 1.1rem;
     align-items: center;
     justify-content: space-between;
 }
+.header1{
+    width: 7%;
+}
+.offcanvas{
+    background-color: rgb(20,20,20);
+    width: 220px;
+    border-right: 2px solid rgb(8,166,133);
+}
+.offcanvas hr{
+    color: gray;
+    height: 1.5px;
+    width: 100%;
+}
+.offcanvas .offcanvas-header{
+    display: flex;
+    justify-content: center;
+}
+.offcanvas-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.offcanvas-body a{
+    margin-top: 0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+}
+.offcanvas-body a:hover{
+    background-color: rgb(8,166,133);
+}
+.offcanvas-body hr{
+    color: grey;
+    width: 100%;
+}
+.header4 img{
+    width: 90px;
+
+}
+.header4 button i{
+font-size: 2rem;
+color: rgb(8,166,133);
+float: right;
+line-height: 80px;
+margin-right: 40px;
+}
+#btn{
+    border: none;
+    outline: none;
+    background: black;
+    width: 0px;
+    height: 0px;
+}
 
 
-.header img{
+.header1 img{
     height: 80px;
     border-radius: 14px;
-    margin-left: 35px;
+    margin-left: px;
 }
-.header ul{
+.header2 ul{
     display: flex;
     list-style: none;
+    gap: 0.5rem;
     
 
 }
-.header ul li{
+.header2 ul li{
     
-    padding: 12px;
+    
 
 }
-.header ul li a{
+.header2 ul li a{
     text-decoration: none;
     color: white;
-    font-size: 22px;
+    font-size: 1.2rem;
 }
-.header ul li a:hover{
+.header2 ul li a:hover{
     text-decoration: underline;
     color: rgb(8,166,133);
     
 }
-.header button{
-    margin-right: 45px;
+.header3 button{
+    margin-right: 1.5rem;
     width: 120px;
     height: 35px;
     border-radius: 22px;
@@ -61,7 +116,7 @@ body{
     font-size: 18px;
 
 }
-.header button:hover{
+.header3 button:hover{
     border: 6px solid rgb(8,166,133);
     box-shadow: 2px 2px 20px rgb(8,166,133);
     transform: translate(0px,-3px);
@@ -72,18 +127,19 @@ body{
 }
 .heading h3{
     font-size: 25px;
-    font-weight: 200;
+    font-weight: 400;
 }
 .heading h1{
-    font-size: 80px;
-    font-weight: 200;
+    font-size: 70px;
+    font-weight: 400;
     margin-bottom: 40px;
+    padding-bottom: 11px;
+    border-bottom: 2px solid rgb(8,166,133);
     
 }
 .heading{
-    border-bottom: 1px solid rgb(8,166,133);
     width: 225px;
-    margin: 25px;
+    margin-left: 25px;
     
 }
 .nav,.nav2{
@@ -104,7 +160,7 @@ body{
     border: 1px solid rgb(8,166,133);
     border-radius: 30px;
     background-color: white;
-    font-size: 20px;
+    font-size: 1.1rem;
     padding: 15px;
     
 }
@@ -126,8 +182,8 @@ body{
     background-color: white;
     text-decoration: none;
     border: 1px solid ;
-    font-size: 20px;
-    padding: 8px;
+    font-size: 1.1rem;
+    padding: 0.5rem;
 
 }
 .nav2 ul li a:hover{
@@ -285,7 +341,7 @@ hr{
     flex-wrap: wrap;
 }
 .link{
-    width: 80px;
+    width: 3rem;
     height: 55px;
      display: flex;
     align-items: center;
@@ -307,6 +363,27 @@ hr{
 @media (max-width:768px) {
     .gallery-item{
         width: 100%;
+    }
+    .contact-item{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer-item{
+        padding: 1rem;
+        width: 100%;
+    }
+    
+}
+@media (max-width:768px) {
+    .header2,.header3{
+        display: none;
+    }
+}
+@media (min-width:768px) {
+    .header4{
+        display: none;
     }
 }
 
