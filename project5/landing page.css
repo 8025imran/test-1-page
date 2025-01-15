@@ -67,9 +67,9 @@ margin-right: 1.5rem;
 #btn{
     border: none;
     outline: none;
-    background: black;
-    width: 0px;
-    height: 0px;
+    background:rgb(20,20,20);
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
 }
 
 
